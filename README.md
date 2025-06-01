@@ -93,7 +93,7 @@ Heatmaps saved in:
 
 .tiff (raw matrix)
 
-.svg (colored visualization using RdYlGn, range: pH 5.4–7.6)
+.svg (colored visualization using RdYlGn, range: pH 5.4–8.0); Requires adjustment accordingly
 
 4. Loss Curve Plotting
 Training and validation loss are plotted using matplotlib
@@ -147,7 +147,7 @@ sample_pre.tiff: Raw pH array
 Training Curve: Saved or displayed showing loss over 20 epochs
 
 Performance
-Typical validation loss: ~0.076 pH units (MSE)
+Typical validation loss: <1 to 0.0076 pH square units (MSE)
 
 Sufficient for resolving spatial pH trends in biological and chemical imaging contexts
 
